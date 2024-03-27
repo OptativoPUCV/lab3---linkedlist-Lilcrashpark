@@ -33,3 +33,9 @@ list.c:72:62: error: ‘prev’ undeclared (first use in this function)
 list.c:72:62: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 c94ab6b
+Wed 27 Mar 2024 03:15:25 AM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  9|3
+total_score: 35/70
+f298b49
