@@ -22,3 +22,14 @@ Wed 27 Mar 2024 03:12:39 AM UTC:
  tests:  6|4
 total_score: 25/70
 885d965
+Wed 27 Mar 2024 03:15:12 AM UTC: 
+ list.c | 8 +++++++-
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+list.c: In function ‘prevList’:
+list.c:72:62: error: ‘prev’ undeclared (first use in this function)
+   72 |   if (list == NULL || list->current == NULL || list->current-prev == NULL)
+      |                                                              ^~~~
+list.c:72:62: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+c94ab6b
